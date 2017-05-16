@@ -15,6 +15,8 @@ namespace MVCMusicStore.Models
 
 		public string Contents { get; set; }
 
+
+        //Require Email
 		[Required()]
 		[Display(Name="Email Address")]
 		[DataType(DataType.EmailAddress)]
